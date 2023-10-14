@@ -16,6 +16,20 @@
 // var it = document.getElementsByClassName('n');
 // it[0].style.color = 'green';
 
-var arr= document.getElementsByTagName('li');
-arr[arr.length-1].style.color='red';
+// var arr= document.getElementsByTagName('li');
+// arr[arr.length-1].style.color='red';
 
+// var secondItem = document.querySelector('.list-group-item:nth-child(2)');
+// secondItem.style.color='blue';
+
+// var thirdItem = document.querySelector('.list-group-item:nth-child(3)');
+// thirdItem.style.display='none';
+
+// var secondItem = document.querySelectorAll('.list-group-item');
+// secondItem[1].style.color= 'green';
+
+var oddele= document.querySelectorAll('.list-group-item:nth-child(odd)');
+
+for(var i=0;i<oddele.length;i++){
+    oddele[i].style.backgroundColor="green";
+}
